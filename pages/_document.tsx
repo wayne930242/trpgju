@@ -11,7 +11,6 @@ class MyDocument extends Document {
       <Html lang="zh-tw">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <meta name="robots" content="noindex,nofollow" />
         </Head>
         <body>
