@@ -1,20 +1,33 @@
 {
-  "name": "nextjs",
-  "version": "1.0.0",
+  "name": "trpg-ju",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@fullcalendar/core": "^5.10.1",
+    "@fullcalendar/daygrid": "^5.10.1",
+    "@fullcalendar/list": "^5.10.1",
+    "@fullcalendar/timegrid": "^5.10.1",
+    "@themesberg/flowbite": "^1.1.1",
+    "google-spreadsheet": "^3.2.0",
+    "next": "^12.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-calendar-api": "^1.4.0",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "@babel/core": "^7.13.10",
+    "@types/node": "^12.12.21",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "typescript": "4.0"
   }
 }
